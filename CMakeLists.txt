@@ -64,10 +64,10 @@ export(EXPORT ${PROJ_EXPORT_NAME}Targets FILE ${CMAKE_CURRENT_BINARY_DIR}/${PROJ
 export(PACKAGE ${PROJ_EXPORT_NAME})
 
 
-add_executable(luax src/lua.c)
-target_link_libraries(luax PRIVATE lua)
+# add_executable(luax src/lua.c)
+# target_link_libraries(luax PRIVATE lua)
 
-add_executable(luac src/luac.c)
-target_link_libraries(luac PRIVATE lua)
+# add_executable(luac src/luac.c)
+# target_link_libraries(luac PRIVATE lua)
 
 #add_subdirectory(test)
